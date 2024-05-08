@@ -1,0 +1,49 @@
+/* 背景イメージ */
+img {
+    width: 100%; 
+    height: auto;
+}
+
+header{
+    /* login背景色 */
+    background-color: bisque;
+    padding: 1px 0;
+
+    /* login真ん中に */
+    /*display:flex;
+    justify-content:center;*/
+    text-align: center;
+}
+
+form{
+    /* 入力内容を真ん中に */
+    padding: 70px 0;
+    display:flex;
+    gap: 0 20px;
+    justify-content:center;
+}
+
+/* ボタンの装飾 */
+.btn{
+    width: 150px;
+    padding: 14px 0;
+    /* 背景色 */    
+    background-color: #34dbb7;
+    /*文字色を白にする white*/
+    color: white;
+}
+
+/* 登録画面へ */
+a{
+    display:flex;
+    gap: 0 20px;
+    justify-content:center;
+}
+
+/*背景画像*/
+body{
+    background-image: url(./img/img02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
